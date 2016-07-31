@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="13955" started-at="2016-07-31T13:04:21Z" finished-at="2016-07-31T13:04:35Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="13955" started-at="2016-07-31T13:04:21Z" finished-at="2016-07-31T13:04:35Z">
+      <class name="ru.st.selenium.AddNewUser">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="init" is-config="true" duration-ms="9070" started-at="2016-07-31T16:04:21Z" finished-at="2016-07-31T16:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addNewUserOK()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="addNewUserOK" duration-ms="4862" started-at="2016-07-31T16:04:30Z" finished-at="2016-07-31T16:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserOK -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="stop" is-config="true" duration-ms="621" started-at="2016-07-31T16:04:35Z" finished-at="2016-07-31T16:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- ru.st.selenium.AddNewUser -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
