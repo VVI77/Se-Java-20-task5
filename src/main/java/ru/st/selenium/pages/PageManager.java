@@ -12,6 +12,8 @@ public class PageManager {
   public InternalPage internalPage;
   public UserProfilePage userProfilePage;
   public UserManagementPage userManagementPage;
+  public FilmAddPage filmAddPage;
+  public FilmViewPage filmViewPage;
 
   public PageManager(WebDriver driver) {
     this.driver = driver;
@@ -19,6 +21,9 @@ public class PageManager {
     internalPage = initElements(new InternalPage(this));
     userProfilePage = initElements(new UserProfilePage(this));
     userManagementPage = initElements(new UserManagementPage(this));
+    filmAddPage = initElements(new FilmAddPage(this));
+    filmViewPage = initElements(new FilmViewPage(this));
+    
   }
   
   private <T extends Page> T initElements(T page) {

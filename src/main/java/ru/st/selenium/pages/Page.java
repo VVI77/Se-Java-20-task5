@@ -11,9 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public abstract class Page {
 
-	protected WebDriver driver;
-  protected WebDriverWait wait;
-  protected PageManager pages;
+	  protected WebDriver driver;
+	  protected WebDriverWait wait;
+	  protected PageManager pages;
 
 	/*
 	 * Constructor injecting the WebDriver interface

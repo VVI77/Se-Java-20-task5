@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="13955" started-at="2016-07-31T13:04:21Z" finished-at="2016-07-31T13:04:35Z">
+  <suite name="Tests" duration-ms="9721" started-at="2016-08-01T14:04:09Z" finished-at="2016-08-01T14:04:18Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="13955" started-at="2016-07-31T13:04:21Z" finished-at="2016-07-31T13:04:35Z">
-      <class name="ru.st.selenium.AddNewUser">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="init" is-config="true" duration-ms="9070" started-at="2016-07-31T16:04:21Z" finished-at="2016-07-31T16:04:30Z">
+    <test name="Test1" duration-ms="9721" started-at="2016-08-01T14:04:09Z" finished-at="2016-08-01T14:04:18Z">
+      <class name="ru.st.selenium.SearchMovie">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.SearchMovie@60addb54]" name="init" is-config="true" duration-ms="6530" started-at="2016-08-01T17:04:09Z" finished-at="2016-08-01T17:04:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="addNewUserOK()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="addNewUserOK" duration-ms="4862" started-at="2016-07-31T16:04:30Z" finished-at="2016-07-31T16:04:35Z">
+        <test-method status="PASS" signature="searchMovieOK()[pri:0, instance:ru.st.selenium.SearchMovie@60addb54]" name="searchMovieOK" duration-ms="3178" started-at="2016-08-01T17:04:15Z" finished-at="2016-08-01T17:04:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewUserOK -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:ru.st.selenium.AddNewUser@366e2eef]" name="stop" is-config="true" duration-ms="621" started-at="2016-07-31T16:04:35Z" finished-at="2016-07-31T16:04:36Z">
+        </test-method> <!-- searchMovieOK -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:ru.st.selenium.SearchMovie@60addb54]" name="stop" is-config="true" duration-ms="637" started-at="2016-08-01T17:04:18Z" finished-at="2016-08-01T17:04:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- ru.st.selenium.AddNewUser -->
+      </class> <!-- ru.st.selenium.SearchMovie -->
     </test> <!-- Test1 -->
   </suite> <!-- Tests -->
 </testng-results>

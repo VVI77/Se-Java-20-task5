@@ -38,5 +38,12 @@ public class NavigationHelper2 extends DriverBasedHelper implements NavigationHe
     //  .click();
     //openRelativeUrl("?go=users");
   }
+  
+  public void gotoAddFilmPage() {
+	    pages.internalPage.ensurePageLoaded().clickAddMovieButton();
+	    //driver.findElement(By.cssSelector("nav a[href $= '?go=users']"))
+	    //  .click();
+	    //openRelativeUrl("?go=users");
+	  }  
 
 }

@@ -18,15 +18,32 @@ public class FilmHelper1 extends DriverBasedHelper implements FilmHelper {
   }
 
   @Override
-  public void delete(Film film) {
+  public void delete() {
     // TODO Auto-generated method stub
 
   }
 
   @Override
-  public List<Film> search(String title) {
+  public void search(String title) {
     // TODO Auto-generated method stub
-    return null;
+
   }
 
+  public boolean isFilmCreated(){
+	  return false;
+	 }
+  
+  public boolean isFilmRemoved(){
+	  return false;
+	 }
+  
+  public boolean isEmptyFilmList(){
+	  return false;
+  }
+  
+  public boolean isSearchOK(){
+	  return false;
+	  
+  }
+    
 }
